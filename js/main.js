@@ -29,3 +29,16 @@ function createToDoItems(textoItem){
     // Utilizamos el return para dar respuestas del elemento creado ya que lo utilizaremos mas adelante
     return item;
 }
+
+// detectamos el evento click con un elemento listener para que apartir de este evento se agregue la tarea dentro del contenedor cont-to-do-list
+addBtn.addEventListener('click', ()=>{
+    const textoItem = input.value.trim();
+    if (textoItem == "") {
+        alert("No se puede crear una tarea vacia")
+    } else {
+        const newItem = createToDoItems(textoItem);
+        toDoList.appendChild(newItem);
+
+        input.value = "";
+    }
+});
