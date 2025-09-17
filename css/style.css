@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #d1d0d0;
+    color: #1a1818;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+
+#global-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3b5bdb;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0 10px;
+    color: #222;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 8px 12px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #3b5bdb;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: #3b5bdb 0.3s;
+}
+
+form button:hover {
+    background-color: #2f4ac2;
+}
+
+
+#cont-to-do-list,
+#cont-completed-list {
+    margin-bottom: 20px;
+}
+
+
+.item-to-do {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eef1f5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.item-to-do:hover {
+    transform: scale(1.01);
+}
+
+.item-to-do p {
+    flex: 1;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.item-to-do button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: #ff6b6b 0.3s;
+}
+
+.item-to-do button:hover {
+    background-color: #e64747;
+}
+
+
+
