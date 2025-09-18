@@ -1,8 +1,8 @@
 // creamos las constantes globales para los elementos principales
-const input= document.getElementById('to-do-input');
-const addBtn= document.getElementById('add-btn');
-const toDoList= document.getElementById('cont-to-do-list');
-const completedList= document.getElementById('cont-completed-list');
+const input = document.getElementById('to-do-input');
+const addBtn = document.getElementById('add-btn');
+const toDoList = document.getElementById('cont-to-do-list');
+const completedList = document.getElementById('cont-completed-list');
 
 
 // Creamos la función que nos permita crear una nueva tarea apartir del formulario
@@ -10,7 +10,7 @@ const completedList= document.getElementById('cont-completed-list');
 
 
 // Esta función solo crea la esturctura de html en el limbo o una memoria temporal aun no la inserta en la pagina
-function createToDoItems(textoItem){
+function createToDoItems(textoItem) {
     // creamos el nodo o elemento padre
     const item = document.createElement('div');
     item.classList.add('item-to-do');
@@ -50,7 +50,7 @@ addBtn.addEventListener('click', () => {
 
 
 // La siguiente función nos permitira agregar el funcionamiento principal sobre las tareas es decir marcar la tarea como completada o en dado caso eliminada
-function eventsToItem(item){
+function eventsToItem(item) {
     // utilizamos querySelector para capturar el input y el button que estan dentro del Item
     const checkbox = item.querySelector('input');
     const deleteBtn = item.querySelector('button');
@@ -58,7 +58,7 @@ function eventsToItem(item){
     checkbox.addEventListener('change', () => {
         if (checkbox.checked) {
             completedList.appendChild(item);
-        }else{
+        } else {
             toDoList.appendChild(item);
         }
     });
@@ -67,3 +67,21 @@ function eventsToItem(item){
         item.remove();
     });
 }
+
+
+const btnStyles = document.getElementById('change-styles');
+btnStyles.addEventListener('click', () => {
+    const linkCss = document.getElementById('enlace-estilos');
+
+    if (linkCss.getAttribute('href') == 'css/style.css') {
+
+        linkCss.setAttribute('href', 'css/style-noche.css');
+
+        btnStyles.textContent = 'Modo Dia';
+    }
+    else{
+        linkCss.setAttribute('href', 'css/style.css');
+
+        btnStyles.textContent = 'Modo Dia';
+    }
+});
