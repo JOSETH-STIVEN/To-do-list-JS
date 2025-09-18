@@ -48,6 +48,20 @@ addBtn.addEventListener('click', () => {
     }
 });
 
+input.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        const textoItem = input.value.trim();
+        if (textoItem === "") {
+            alert("No se puede crear una tarea vacía");
+        } else {
+            const newItem = createToDoItems(textoItem);
+            toDoList.appendChild(newItem);
+            eventsToItem(newItem);
+            input.value = "";
+        }
+    }
+});
+
 
 // La siguiente función nos permitira agregar el funcionamiento principal sobre las tareas es decir marcar la tarea como completada o en dado caso eliminada
 function eventsToItem(item) {
