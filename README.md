@@ -46,12 +46,11 @@ cd To-do-list-JS
 # 3. Abre el archivo en tu navegador
 # Puedes hacer doble clic en `index.html` o usar un servidor local, como Live Server en VSCode
 
-# Contacto y Redes Sociales
+## Contacto y Redes Sociales
 
 ¿Tienes dudas, quieres colaborar o simplemente conectar? ¡Estoy disponible en las siguientes plataformas!
 
-💻 GitHub: https://github.com/JOSETH-STIVEN
+- 💻 [GitHub](https://github.com/JOSETH-STIVEN)
+- 💼 [LinkedIn](https://www.linkedin.com/in/stiven-aguilar-19275b368/)
+- 📧 Correo electrónico: [stivenaguilar10288@gmail.com](mailto:stivenaguilar10288@gmail.com)
 
-💼 LinkedIn: https://www.linkedin.com/in/stiven-aguilar-19275b368/
- 
-📧 Correo electrónico: stivenaguilar10288@gmail.com
