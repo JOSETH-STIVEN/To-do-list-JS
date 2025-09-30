@@ -50,7 +50,7 @@ cd To-do-list-JS
 
 ¿Tienes dudas, quieres colaborar o simplemente conectar? ¡Estoy disponible en las siguientes plataformas!
 
-- 💻 [GitHub](https://github.com/JOSETH-STIVEN)
-- 💼 [LinkedIn](https://www.linkedin.com/in/stiven-aguilar-19275b368/)
-- 📧 Correo electrónico: [stivenaguilar10288@gmail.com](mailto:stivenaguilar10288@gmail.com)
+- 💻 GitHub :https://github.com/JOSETH-STIVEN
+- 💼 LinkedIn : https://www.linkedin.com/in/stiven-aguilar-19275b368/
+- 📧 Correo electrónico: stivenaguilar10288@gmail.com
 
